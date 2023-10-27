@@ -1,3 +1,4 @@
+#Importamos librerias
 import pygame
 import sys
 
