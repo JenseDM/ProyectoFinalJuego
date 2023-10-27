@@ -1,6 +1,6 @@
 import pygame
 import sys
-#Isaac es un amor y nos robaron con esa vuelta
+
 # Iniciamos pygame
 pygame.init()
 
