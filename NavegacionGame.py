@@ -1,6 +1,7 @@
 #Importamos librerias
 import pygame
 import sys
+from Juego import *
 
 # Iniciamos pygame
 pygame.init()
@@ -133,7 +134,9 @@ def user():
                 if okButton.checkForInput(helpMousePos):
                     print("Texto ingresado:", texto)
                     texto = ""  
-                    mainMenu()
+                    #mainMenu()
+                if okButton.checkForInput(helpMousePos):
+                    main_juego()
             if event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_BACKSPACE:
                     texto = texto[:-1]
