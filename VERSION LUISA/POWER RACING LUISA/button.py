@@ -1,11 +1,6 @@
 import pygame
 import sys
 
-
-# Carga las imágenes de los botones y el fondo del menú
-""" button_image = pygame.image.load("Frame 3.png")
-button_hover_image = pygame.image.load("Frame 4.png")
-fondo_menu = pygame.image.load("Fondo_Menu.jpg") """
 class Button:
     def __init__(self, x, y, width, height,image,hover_image,action):
         self.rect = pygame.Rect(x, y, width, height)
