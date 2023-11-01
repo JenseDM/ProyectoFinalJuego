@@ -7,6 +7,7 @@ import pygame.mixer
 pygame.init()
 
 screen_size = pygame.display.set_mode([800, 500])
+pygame.display.set_caption("POWER RACING")
 clock = pygame.time.Clock()
 
 background = pygame.image.load("./Img/Carretera.png").convert()
